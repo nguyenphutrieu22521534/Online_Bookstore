@@ -18,9 +18,6 @@ namespace Bulky.DataAccess.Repository
         {
             _db = db;
         }
-
-
-
         public void Update(Product obj)
         {
             _db.Products.Update(obj);
