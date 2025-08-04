@@ -1,8 +1,8 @@
 using System.Diagnostics;
-using Bulky.Models;
+using BookStore.Models;
 using Microsoft.AspNetCore.Mvc;
 
-namespace BulkyWeb.Areas.Customer.Controllers
+namespace BookStoreWeb.Areas.Customer.Controllers
 {
     [Area("Customer")]
     public class HomeController : Controller
